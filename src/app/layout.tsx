@@ -29,3 +29,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+import Link from "next/link";
+
+// Example sidebar link
+<Link href="/review" className="hover:underline">
+  Review
+</Link>
